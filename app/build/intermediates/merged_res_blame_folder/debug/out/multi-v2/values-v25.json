@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "uz.gita.bookapp-mergeDebugResources-61:/values-v25/values-v25.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\stalker\\.gradle\\caches\\transforms-3\\8e5575f954d68f7df2f4f7a0d5224f11\\transformed\\appcompat-1.6.1\\res\\values-v25\\values-v25.xml",
+                    "from": {
+                        "startLines": "2,3,4,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,209,308",
+                        "endLines": "2,3,5,7",
+                        "endColumns": "70,82,12,12",
+                        "endOffsets": "121,204,303,414"
+                    }
+                }
+            ]
+        }
+    ]
+}

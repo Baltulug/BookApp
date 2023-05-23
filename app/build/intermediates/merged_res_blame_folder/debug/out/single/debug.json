@@ -1,0 +1,162 @@
+[
+    {
+        "merged": "uz.gita.bookapp-merged_res-63:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "uz.gita.bookapp-main-65:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "uz.gita.bookapp-merged_res-63:/layout_screen_read_book.xml.flat",
+        "source": "uz.gita.bookapp-main-65:/layout/screen_read_book.xml"
+    },
+    {
+        "merged": "uz.gita.bookapp-merged_res-63:/xml_data_extraction_rules.xml.flat",
+        "source": "uz.gita.bookapp-main-65:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "uz.gita.bookapp-merged_res-63:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "uz.gita.bookapp-main-65:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "uz.gita.bookapp-merged_res-63:/drawable_ic_download.xml.flat",
+        "source": "uz.gita.bookapp-main-65:/drawable/ic_download.xml"
+    },
+    {
+        "merged": "uz.gita.bookapp-merged_res-63:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "uz.gita.bookapp-main-65:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "uz.gita.bookapp-merged_res-63:/drawable_ic_home.xml.flat",
+        "source": "uz.gita.bookapp-main-65:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "uz.gita.bookapp-merged_res-63:/layout_activity_main.xml.flat",
+        "source": "uz.gita.bookapp-main-65:/layout/activity_main.xml"
+    },
+    {
+        "merged": "uz.gita.bookapp-merged_res-63:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "uz.gita.bookapp-main-65:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "uz.gita.bookapp-merged_res-63:/navigation_app_nav.xml.flat",
+        "source": "uz.gita.bookapp-main-65:/navigation/app_nav.xml"
+    },
+    {
+        "merged": "uz.gita.bookapp-merged_res-63:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "uz.gita.bookapp-main-65:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "uz.gita.bookapp-merged_res-63:/layout_screen_saved.xml.flat",
+        "source": "uz.gita.bookapp-main-65:/layout/screen_saved.xml"
+    },
+    {
+        "merged": "uz.gita.bookapp-merged_res-63:/font_amiko.ttf.flat",
+        "source": "uz.gita.bookapp-main-65:/font/amiko.ttf"
+    },
+    {
+        "merged": "uz.gita.bookapp-merged_res-63:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "uz.gita.bookapp-main-65:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "uz.gita.bookapp-merged_res-63:/drawable_bg_bottom_nav.xml.flat",
+        "source": "uz.gita.bookapp-main-65:/drawable/bg_bottom_nav.xml"
+    },
+    {
+        "merged": "uz.gita.bookapp-merged_res-63:/drawable_demo_cover_image.jpg.flat",
+        "source": "uz.gita.bookapp-main-65:/drawable/demo_cover_image.jpg"
+    },
+    {
+        "merged": "uz.gita.bookapp-merged_res-63:/drawable_ic_bookmark.xml.flat",
+        "source": "uz.gita.bookapp-main-65:/drawable/ic_bookmark.xml"
+    },
+    {
+        "merged": "uz.gita.bookapp-merged_res-63:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "uz.gita.bookapp-main-65:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "uz.gita.bookapp-merged_res-63:/layout_screen_home.xml.flat",
+        "source": "uz.gita.bookapp-main-65:/layout/screen_home.xml"
+    },
+    {
+        "merged": "uz.gita.bookapp-merged_res-63:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "uz.gita.bookapp-main-65:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "uz.gita.bookapp-merged_res-63:/drawable_ic_navigate_back.xml.flat",
+        "source": "uz.gita.bookapp-main-65:/drawable/ic_navigate_back.xml"
+    },
+    {
+        "merged": "uz.gita.bookapp-merged_res-63:/drawable_ic_downloaded.xml.flat",
+        "source": "uz.gita.bookapp-main-65:/drawable/ic_downloaded.xml"
+    },
+    {
+        "merged": "uz.gita.bookapp-merged_res-63:/layout_screen_book_info.xml.flat",
+        "source": "uz.gita.bookapp-main-65:/layout/screen_book_info.xml"
+    },
+    {
+        "merged": "uz.gita.bookapp-merged_res-63:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "uz.gita.bookapp-main-65:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "uz.gita.bookapp-merged_res-63:/drawable_ic_navigate_next.xml.flat",
+        "source": "uz.gita.bookapp-main-65:/drawable/ic_navigate_next.xml"
+    },
+    {
+        "merged": "uz.gita.bookapp-merged_res-63:/drawable_ic_profile.xml.flat",
+        "source": "uz.gita.bookapp-main-65:/drawable/ic_profile.xml"
+    },
+    {
+        "merged": "uz.gita.bookapp-merged_res-63:/menu_book_info_menu.xml.flat",
+        "source": "uz.gita.bookapp-main-65:/menu/book_info_menu.xml"
+    },
+    {
+        "merged": "uz.gita.bookapp-merged_res-63:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "uz.gita.bookapp-main-65:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "uz.gita.bookapp-merged_res-63:/layout_item_book.xml.flat",
+        "source": "uz.gita.bookapp-main-65:/layout/item_book.xml"
+    },
+    {
+        "merged": "uz.gita.bookapp-merged_res-63:/layout_screen_explore.xml.flat",
+        "source": "uz.gita.bookapp-main-65:/layout/screen_explore.xml"
+    },
+    {
+        "merged": "uz.gita.bookapp-merged_res-63:/drawable_ic_notification.xml.flat",
+        "source": "uz.gita.bookapp-main-65:/drawable/ic_notification.xml"
+    },
+    {
+        "merged": "uz.gita.bookapp-merged_res-63:/layout_screen_profile.xml.flat",
+        "source": "uz.gita.bookapp-main-65:/layout/screen_profile.xml"
+    },
+    {
+        "merged": "uz.gita.bookapp-merged_res-63:/drawable_ic_launcher_background.xml.flat",
+        "source": "uz.gita.bookapp-main-65:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "uz.gita.bookapp-merged_res-63:/drawable_ic_explore.xml.flat",
+        "source": "uz.gita.bookapp-main-65:/drawable/ic_explore.xml"
+    },
+    {
+        "merged": "uz.gita.bookapp-merged_res-63:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "uz.gita.bookapp-main-65:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "uz.gita.bookapp-merged_res-63:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "uz.gita.bookapp-main-65:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "uz.gita.bookapp-merged_res-63:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "uz.gita.bookapp-main-65:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "uz.gita.bookapp-merged_res-63:/menu_nav_menu.xml.flat",
+        "source": "uz.gita.bookapp-main-65:/menu/nav_menu.xml"
+    },
+    {
+        "merged": "uz.gita.bookapp-merged_res-63:/drawable_ic_saved.xml.flat",
+        "source": "uz.gita.bookapp-main-65:/drawable/ic_saved.xml"
+    },
+    {
+        "merged": "uz.gita.bookapp-merged_res-63:/xml_backup_rules.xml.flat",
+        "source": "uz.gita.bookapp-main-65:/xml/backup_rules.xml"
+    }
+]

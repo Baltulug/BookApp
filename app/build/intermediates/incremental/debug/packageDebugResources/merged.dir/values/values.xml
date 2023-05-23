@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#F0F6FB</color>
+    <color name="black">#FF000000</color>
+    <color name="onBackground">#141C2E</color>
+    <color name="onPrimary">#FFFFFFFF</color>
+    <color name="primary">#141C2E</color>
+    <color name="secondary">#FFA95E</color>
+    <color name="secondaryDark">#F0A157</color>
+    <color name="shimmer">#dddddd</color>
+    <color name="surface">#1B7695</color>
+    <color name="surfaceDark">#17637E</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">BookApp</string>
+    <string name="default_web_client_id" translatable="false">79357465077-3un519hrh8vd3a39rllvalsnbp534jgc.apps.googleusercontent.com</string>
+    <string name="explore">Explore</string>
+    <string name="gcm_defaultSenderId" translatable="false">79357465077</string>
+    <string name="google_api_key" translatable="false">AIzaSyAYOti2e3SezgpHD_N6yOQvFd3nxRsVU3c</string>
+    <string name="google_app_id" translatable="false">1:79357465077:android:297bf0efde6f6487a250bc</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAYOti2e3SezgpHD_N6yOQvFd3nxRsVU3c</string>
+    <string name="google_storage_bucket" translatable="false">bookie-d786d.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">home</string>
+    <string name="our_recomendation">Our Recomendation\n</string>
+    <string name="profile">Profile</string>
+    <string name="project_id" translatable="false">bookie-d786d</string>
+    <string name="saved">Saved</string>
+    <string name="start_reading">Start Reading</string>
+    <style name="Base.Theme.BookApp" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+        <item name="fontFamily">@font/amiko</item>
+    </style>
+    <style name="Theme.BookApp" parent="Base.Theme.BookApp"/>
+</resources>

@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "uz.gita.bookapp-mergeDebugResources-61:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\stalker\\.gradle\\caches\\transforms-3\\8e5575f954d68f7df2f4f7a0d5224f11\\transformed\\appcompat-1.6.1\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+[{"navFile":"src\\main\\res\\navigation\\app_nav.xml","javaFiles":["uz.gita.bookapp.presentation.ui.screen.home.HomeScreenDirections","uz.gita.bookapp.presentation.ui.screen.bookinfo.BookInfoScreenDirections","uz.gita.bookapp.presentation.ui.screen.bookinfo.BookInfoScreenArgs","uz.gita.bookapp.presentation.ui.screen.read.ReadBookScreenArgs"]}]

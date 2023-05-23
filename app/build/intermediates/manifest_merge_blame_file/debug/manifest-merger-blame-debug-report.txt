@@ -1,0 +1,261 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="uz.gita.bookapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->D:\BookApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\BookApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission
+11-->D:\BookApp\app\src\main\AndroidManifest.xml:5:5-9:11
+12        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+12-->D:\BookApp\app\src\main\AndroidManifest.xml:5:22-78
+13        android:maxSdkVersion="32" />
+13-->D:\BookApp\app\src\main\AndroidManifest.xml:6:9-35
+14    <uses-permission
+14-->D:\BookApp\app\src\main\AndroidManifest.xml:10:5-12:48
+15        android:name="android.permission.READ_EXTERNAL_STORAGE"
+15-->D:\BookApp\app\src\main\AndroidManifest.xml:10:22-77
+16        android:maxSdkVersion="32" />
+16-->D:\BookApp\app\src\main\AndroidManifest.xml:11:9-35
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->D:\BookApp\app\src\main\AndroidManifest.xml:14:5-66
+17-->D:\BookApp\app\src\main\AndroidManifest.xml:14:22-64
+18
+19    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+20    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->[com.google.firebase:firebase-firestore:24.6.0] C:\Users\stalker\.gradle\caches\transforms-3\a9fd78c7403aa4b5fad5ed14842c2f60\transformed\jetified-firebase-firestore-24.6.0\AndroidManifest.xml:12:5-79
+21-->[com.google.firebase:firebase-firestore:24.6.0] C:\Users\stalker\.gradle\caches\transforms-3\a9fd78c7403aa4b5fad5ed14842c2f60\transformed\jetified-firebase-firestore-24.6.0\AndroidManifest.xml:12:22-76
+22
+23    <permission
+23-->[androidx.core:core:1.10.0] C:\Users\stalker\.gradle\caches\transforms-3\e4321476fea3e622807b231b2c7003dc\transformed\core-1.10.0\AndroidManifest.xml:22:5-24:47
+24        android:name="uz.gita.bookapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+24-->[androidx.core:core:1.10.0] C:\Users\stalker\.gradle\caches\transforms-3\e4321476fea3e622807b231b2c7003dc\transformed\core-1.10.0\AndroidManifest.xml:23:9-81
+25        android:protectionLevel="signature" />
+25-->[androidx.core:core:1.10.0] C:\Users\stalker\.gradle\caches\transforms-3\e4321476fea3e622807b231b2c7003dc\transformed\core-1.10.0\AndroidManifest.xml:24:9-44
+26
+27    <uses-permission android:name="uz.gita.bookapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+27-->[androidx.core:core:1.10.0] C:\Users\stalker\.gradle\caches\transforms-3\e4321476fea3e622807b231b2c7003dc\transformed\core-1.10.0\AndroidManifest.xml:26:5-97
+27-->[androidx.core:core:1.10.0] C:\Users\stalker\.gradle\caches\transforms-3\e4321476fea3e622807b231b2c7003dc\transformed\core-1.10.0\AndroidManifest.xml:26:22-94
+28
+29    <application
+29-->D:\BookApp\app\src\main\AndroidManifest.xml:16:5-42:19
+30        android:name="uz.gita.bookapp.app.App"
+30-->D:\BookApp\app\src\main\AndroidManifest.xml:21:9-32
+31        android:allowBackup="true"
+31-->D:\BookApp\app\src\main\AndroidManifest.xml:17:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.10.0] C:\Users\stalker\.gradle\caches\transforms-3\e4321476fea3e622807b231b2c7003dc\transformed\core-1.10.0\AndroidManifest.xml:28:18-86
+33        android:dataExtractionRules="@xml/data_extraction_rules"
+33-->D:\BookApp\app\src\main\AndroidManifest.xml:18:9-65
+34        android:debuggable="true"
+35        android:extractNativeLibs="false"
+36        android:fullBackupContent="@xml/backup_rules"
+36-->D:\BookApp\app\src\main\AndroidManifest.xml:19:9-54
+37        android:icon="@mipmap/ic_launcher"
+37-->D:\BookApp\app\src\main\AndroidManifest.xml:20:9-43
+38        android:label="@string/app_name"
+38-->D:\BookApp\app\src\main\AndroidManifest.xml:22:9-41
+39        android:roundIcon="@mipmap/ic_launcher_round"
+39-->D:\BookApp\app\src\main\AndroidManifest.xml:23:9-54
+40        android:supportsRtl="true"
+40-->D:\BookApp\app\src\main\AndroidManifest.xml:24:9-35
+41        android:testOnly="true"
+42        android:theme="@style/Theme.BookApp" >
+42-->D:\BookApp\app\src\main\AndroidManifest.xml:25:9-45
+43        <activity
+43-->D:\BookApp\app\src\main\AndroidManifest.xml:27:9-35:20
+44            android:name="uz.gita.bookapp.MainActivity"
+44-->D:\BookApp\app\src\main\AndroidManifest.xml:28:13-41
+45            android:exported="true" >
+45-->D:\BookApp\app\src\main\AndroidManifest.xml:29:13-36
+46            <intent-filter>
+46-->D:\BookApp\app\src\main\AndroidManifest.xml:30:13-34:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->D:\BookApp\app\src\main\AndroidManifest.xml:31:17-69
+47-->D:\BookApp\app\src\main\AndroidManifest.xml:31:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->D:\BookApp\app\src\main\AndroidManifest.xml:33:17-77
+49-->D:\BookApp\app\src\main\AndroidManifest.xml:33:27-74
+50            </intent-filter>
+51        </activity>
+52
+53        <receiver
+53-->D:\BookApp\app\src\main\AndroidManifest.xml:37:9-41:20
+54            android:name="uz.gita.bookapp.domain.downloadmanager.DownloadCompletedReceiver"
+54-->D:\BookApp\app\src\main\AndroidManifest.xml:37:19-83
+55            android:exported="true" >
+55-->D:\BookApp\app\src\main\AndroidManifest.xml:37:84-107
+56            <intent-filter>
+56-->D:\BookApp\app\src\main\AndroidManifest.xml:38:13-40:29
+57                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+57-->D:\BookApp\app\src\main\AndroidManifest.xml:39:17-81
+57-->D:\BookApp\app\src\main\AndroidManifest.xml:39:25-79
+58            </intent-filter>
+59        </receiver>
+60
+61        <service
+61-->[com.google.firebase:firebase-firestore-ktx:24.6.0] C:\Users\stalker\.gradle\caches\transforms-3\de2edbe11bc365d503b08b92b2e9fe5b\transformed\jetified-firebase-firestore-ktx-24.6.0\AndroidManifest.xml:11:9-17:19
+62            android:name="com.google.firebase.components.ComponentDiscoveryService"
+62-->[com.google.firebase:firebase-firestore-ktx:24.6.0] C:\Users\stalker\.gradle\caches\transforms-3\de2edbe11bc365d503b08b92b2e9fe5b\transformed\jetified-firebase-firestore-ktx-24.6.0\AndroidManifest.xml:12:13-84
+63            android:directBootAware="true"
+63-->[com.google.firebase:firebase-common:20.3.2] C:\Users\stalker\.gradle\caches\transforms-3\a9000f483ee4b6b9dd30216fe8449db0\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+64            android:exported="false" >
+64-->[com.google.firebase:firebase-firestore-ktx:24.6.0] C:\Users\stalker\.gradle\caches\transforms-3\de2edbe11bc365d503b08b92b2e9fe5b\transformed\jetified-firebase-firestore-ktx-24.6.0\AndroidManifest.xml:13:13-37
+65            <meta-data
+65-->[com.google.firebase:firebase-firestore-ktx:24.6.0] C:\Users\stalker\.gradle\caches\transforms-3\de2edbe11bc365d503b08b92b2e9fe5b\transformed\jetified-firebase-firestore-ktx-24.6.0\AndroidManifest.xml:14:13-16:85
+66                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar"
+66-->[com.google.firebase:firebase-firestore-ktx:24.6.0] C:\Users\stalker\.gradle\caches\transforms-3\de2edbe11bc365d503b08b92b2e9fe5b\transformed\jetified-firebase-firestore-ktx-24.6.0\AndroidManifest.xml:15:17-126
+67                android:value="com.google.firebase.components.ComponentRegistrar" />
+67-->[com.google.firebase:firebase-firestore-ktx:24.6.0] C:\Users\stalker\.gradle\caches\transforms-3\de2edbe11bc365d503b08b92b2e9fe5b\transformed\jetified-firebase-firestore-ktx-24.6.0\AndroidManifest.xml:16:17-82
+68            <meta-data
+68-->[com.google.firebase:firebase-storage-ktx:20.2.0] C:\Users\stalker\.gradle\caches\transforms-3\b3fa81eee7afe2dcc1ca764680e07876\transformed\jetified-firebase-storage-ktx-20.2.0\AndroidManifest.xml:14:13-16:85
+69                android:name="com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageKtxRegistrar"
+69-->[com.google.firebase:firebase-storage-ktx:20.2.0] C:\Users\stalker\.gradle\caches\transforms-3\b3fa81eee7afe2dcc1ca764680e07876\transformed\jetified-firebase-storage-ktx-20.2.0\AndroidManifest.xml:15:17-122
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[com.google.firebase:firebase-storage-ktx:20.2.0] C:\Users\stalker\.gradle\caches\transforms-3\b3fa81eee7afe2dcc1ca764680e07876\transformed\jetified-firebase-storage-ktx-20.2.0\AndroidManifest.xml:16:17-82
+71            <meta-data
+71-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\stalker\.gradle\caches\transforms-3\090e0b4537013e5eaa11151832f30976\transformed\jetified-firebase-common-ktx-20.3.2\AndroidManifest.xml:14:13-16:85
+72                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+72-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\stalker\.gradle\caches\transforms-3\090e0b4537013e5eaa11151832f30976\transformed\jetified-firebase-common-ktx-20.3.2\AndroidManifest.xml:15:17-113
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\stalker\.gradle\caches\transforms-3\090e0b4537013e5eaa11151832f30976\transformed\jetified-firebase-common-ktx-20.3.2\AndroidManifest.xml:16:17-82
+74            <meta-data
+74-->[com.google.firebase:firebase-firestore:24.6.0] C:\Users\stalker\.gradle\caches\transforms-3\a9fd78c7403aa4b5fad5ed14842c2f60\transformed\jetified-firebase-firestore-24.6.0\AndroidManifest.xml:19:13-21:85
+75                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+75-->[com.google.firebase:firebase-firestore:24.6.0] C:\Users\stalker\.gradle\caches\transforms-3\a9fd78c7403aa4b5fad5ed14842c2f60\transformed\jetified-firebase-firestore-24.6.0\AndroidManifest.xml:20:17-111
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.firebase:firebase-firestore:24.6.0] C:\Users\stalker\.gradle\caches\transforms-3\a9fd78c7403aa4b5fad5ed14842c2f60\transformed\jetified-firebase-firestore-24.6.0\AndroidManifest.xml:21:17-82
+77            <meta-data
+77-->[com.google.firebase:firebase-storage:20.2.0] C:\Users\stalker\.gradle\caches\transforms-3\dd5ff7e042939e814745b2f46886319a\transformed\jetified-firebase-storage-20.2.0\AndroidManifest.xml:32:13-34:85
+78                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+78-->[com.google.firebase:firebase-storage:20.2.0] C:\Users\stalker\.gradle\caches\transforms-3\dd5ff7e042939e814745b2f46886319a\transformed\jetified-firebase-storage-20.2.0\AndroidManifest.xml:33:17-107
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[com.google.firebase:firebase-storage:20.2.0] C:\Users\stalker\.gradle\caches\transforms-3\dd5ff7e042939e814745b2f46886319a\transformed\jetified-firebase-storage-20.2.0\AndroidManifest.xml:34:17-82
+80        </service>
+81
+82        <provider
+82-->[com.google.firebase:firebase-common:20.3.2] C:\Users\stalker\.gradle\caches\transforms-3\a9000f483ee4b6b9dd30216fe8449db0\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+83            android:name="com.google.firebase.provider.FirebaseInitProvider"
+83-->[com.google.firebase:firebase-common:20.3.2] C:\Users\stalker\.gradle\caches\transforms-3\a9000f483ee4b6b9dd30216fe8449db0\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+84            android:authorities="uz.gita.bookapp.firebaseinitprovider"
+84-->[com.google.firebase:firebase-common:20.3.2] C:\Users\stalker\.gradle\caches\transforms-3\a9000f483ee4b6b9dd30216fe8449db0\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+85            android:directBootAware="true"
+85-->[com.google.firebase:firebase-common:20.3.2] C:\Users\stalker\.gradle\caches\transforms-3\a9000f483ee4b6b9dd30216fe8449db0\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+86            android:exported="false"
+86-->[com.google.firebase:firebase-common:20.3.2] C:\Users\stalker\.gradle\caches\transforms-3\a9000f483ee4b6b9dd30216fe8449db0\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+87            android:initOrder="100" />
+87-->[com.google.firebase:firebase-common:20.3.2] C:\Users\stalker\.gradle\caches\transforms-3\a9000f483ee4b6b9dd30216fe8449db0\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+88
+89        <activity
+89-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\stalker\.gradle\caches\transforms-3\fc5141b48ab7e5a57bb3fc847c962d7b\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+90            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+90-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\stalker\.gradle\caches\transforms-3\fc5141b48ab7e5a57bb3fc847c962d7b\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+91            android:exported="false"
+91-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\stalker\.gradle\caches\transforms-3\fc5141b48ab7e5a57bb3fc847c962d7b\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+92            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+92-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\stalker\.gradle\caches\transforms-3\fc5141b48ab7e5a57bb3fc847c962d7b\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+93
+94        <meta-data
+94-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\stalker\.gradle\caches\transforms-3\702e74f7cae39290f2010006154d9065\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+95            android:name="com.google.android.gms.version"
+95-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\stalker\.gradle\caches\transforms-3\702e74f7cae39290f2010006154d9065\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+96            android:value="@integer/google_play_services_version" />
+96-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\stalker\.gradle\caches\transforms-3\702e74f7cae39290f2010006154d9065\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+97
+98        <provider
+98-->[androidx.emoji2:emoji2:1.2.0] C:\Users\stalker\.gradle\caches\transforms-3\f05e7536bc59f29a21d4a12ce5d0f706\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+99            android:name="androidx.startup.InitializationProvider"
+99-->[androidx.emoji2:emoji2:1.2.0] C:\Users\stalker\.gradle\caches\transforms-3\f05e7536bc59f29a21d4a12ce5d0f706\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+100            android:authorities="uz.gita.bookapp.androidx-startup"
+100-->[androidx.emoji2:emoji2:1.2.0] C:\Users\stalker\.gradle\caches\transforms-3\f05e7536bc59f29a21d4a12ce5d0f706\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+101            android:exported="false" >
+101-->[androidx.emoji2:emoji2:1.2.0] C:\Users\stalker\.gradle\caches\transforms-3\f05e7536bc59f29a21d4a12ce5d0f706\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+102            <meta-data
+102-->[androidx.emoji2:emoji2:1.2.0] C:\Users\stalker\.gradle\caches\transforms-3\f05e7536bc59f29a21d4a12ce5d0f706\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+103                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+103-->[androidx.emoji2:emoji2:1.2.0] C:\Users\stalker\.gradle\caches\transforms-3\f05e7536bc59f29a21d4a12ce5d0f706\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+104                android:value="androidx.startup" />
+104-->[androidx.emoji2:emoji2:1.2.0] C:\Users\stalker\.gradle\caches\transforms-3\f05e7536bc59f29a21d4a12ce5d0f706\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+105            <meta-data
+105-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\stalker\.gradle\caches\transforms-3\062b328865107d364de0716596ac73e3\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+106                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+106-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\stalker\.gradle\caches\transforms-3\062b328865107d364de0716596ac73e3\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+107                android:value="androidx.startup" />
+107-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\stalker\.gradle\caches\transforms-3\062b328865107d364de0716596ac73e3\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+108            <meta-data
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+109                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+110                android:value="androidx.startup" />
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+111        </provider>
+112
+113        <uses-library
+113-->[androidx.window:window:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\a37490ae3b527c196a410a45a56c0be6\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+114            android:name="androidx.window.extensions"
+114-->[androidx.window:window:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\a37490ae3b527c196a410a45a56c0be6\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+115            android:required="false" />
+115-->[androidx.window:window:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\a37490ae3b527c196a410a45a56c0be6\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+116        <uses-library
+116-->[androidx.window:window:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\a37490ae3b527c196a410a45a56c0be6\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+117            android:name="androidx.window.sidecar"
+117-->[androidx.window:window:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\a37490ae3b527c196a410a45a56c0be6\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+118            android:required="false" />
+118-->[androidx.window:window:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\a37490ae3b527c196a410a45a56c0be6\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+119
+120        <service
+120-->[androidx.room:room-runtime:2.5.1] C:\Users\stalker\.gradle\caches\transforms-3\c633a455ff1d6c0bb5fb23c5c271ca43\transformed\room-runtime-2.5.1\AndroidManifest.xml:24:9-28:63
+121            android:name="androidx.room.MultiInstanceInvalidationService"
+121-->[androidx.room:room-runtime:2.5.1] C:\Users\stalker\.gradle\caches\transforms-3\c633a455ff1d6c0bb5fb23c5c271ca43\transformed\room-runtime-2.5.1\AndroidManifest.xml:25:13-74
+122            android:directBootAware="true"
+122-->[androidx.room:room-runtime:2.5.1] C:\Users\stalker\.gradle\caches\transforms-3\c633a455ff1d6c0bb5fb23c5c271ca43\transformed\room-runtime-2.5.1\AndroidManifest.xml:26:13-43
+123            android:exported="false" />
+123-->[androidx.room:room-runtime:2.5.1] C:\Users\stalker\.gradle\caches\transforms-3\c633a455ff1d6c0bb5fb23c5c271ca43\transformed\room-runtime-2.5.1\AndroidManifest.xml:27:13-37
+124
+125        <receiver
+125-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+126            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+126-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+127            android:directBootAware="false"
+127-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+128            android:enabled="true"
+128-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+129            android:exported="true"
+129-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+130            android:permission="android.permission.DUMP" >
+130-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+131            <intent-filter>
+131-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+132                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+133            </intent-filter>
+134            <intent-filter>
+134-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+135                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+136            </intent-filter>
+137            <intent-filter>
+137-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+138                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+139            </intent-filter>
+140            <intent-filter>
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+141                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+142            </intent-filter>
+143        </receiver>
+144    </application>
+145
+146</manifest>

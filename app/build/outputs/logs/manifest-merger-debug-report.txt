@@ -1,0 +1,635 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from D:\BookApp\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from D:\BookApp\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from D:\BookApp\app\src\main\AndroidManifest.xml:2:1-44:12
+MERGED from [androidx.databinding:viewbinding:8.0.0] C:\Users\stalker\.gradle\caches\transforms-3\942dccb95ca9039a8cef907b751179d7\transformed\jetified-viewbinding-8.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-ktx:2.5.1] C:\Users\stalker\.gradle\caches\transforms-3\3a22bd702bc81ff3aabbe485d61fb840\transformed\jetified-room-ktx-2.5.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.5.3] C:\Users\stalker\.gradle\caches\transforms-3\c8049829c74841e1cb0784f008a1f5da\transformed\navigation-fragment-ktx-2.5.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.5.3] C:\Users\stalker\.gradle\caches\transforms-3\e8df2acdd1714307af4d065f701113ad\transformed\navigation-fragment-2.5.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.5.7] C:\Users\stalker\.gradle\caches\transforms-3\cc6893e5c33878da0c658a0e410dfbfb\transformed\jetified-fragment-ktx-1.5.7\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.5.3] C:\Users\stalker\.gradle\caches\transforms-3\a7a0bbe1742d087eb35b30fda3d1b7ef\transformed\navigation-ui-ktx-2.5.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.5.3] C:\Users\stalker\.gradle\caches\transforms-3\515e69f40ffc0fdb2820dc4ccc4e8be8\transformed\navigation-ui-2.5.3\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.9.0] C:\Users\stalker\.gradle\caches\transforms-3\0d115046d28e9822a0b4d11ec5ce711e\transformed\material-1.9.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\stalker\.gradle\caches\transforms-3\7e08ce709706817b14b99fb84d9c2c4d\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\stalker\.gradle\caches\transforms-3\da056a675d3ebb1bece75749ba9f393c\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\stalker\.gradle\caches\transforms-3\8e5575f954d68f7df2f4f7a0d5224f11\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.15.1] C:\Users\stalker\.gradle\caches\transforms-3\7d6b3150361066e2ca4589463d0f06bb\transformed\jetified-glide-4.15.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\89b30094cbe5e8f87ffaccf9cab1bc82\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.6.0] C:\Users\stalker\.gradle\caches\transforms-3\de2edbe11bc365d503b08b92b2e9fe5b\transformed\jetified-firebase-firestore-ktx-24.6.0\AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.firebase:firebase-storage-ktx:20.2.0] C:\Users\stalker\.gradle\caches\transforms-3\b3fa81eee7afe2dcc1ca764680e07876\transformed\jetified-firebase-storage-ktx-20.2.0\AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\stalker\.gradle\caches\transforms-3\090e0b4537013e5eaa11151832f30976\transformed\jetified-firebase-common-ktx-20.3.2\AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.firebase:firebase-firestore:24.6.0] C:\Users\stalker\.gradle\caches\transforms-3\a9fd78c7403aa4b5fad5ed14842c2f60\transformed\jetified-firebase-firestore-24.6.0\AndroidManifest.xml:2:1-25:12
+MERGED from [com.google.firebase:firebase-storage:20.2.0] C:\Users\stalker\.gradle\caches\transforms-3\dd5ff7e042939e814745b2f46886319a\transformed\jetified-firebase-storage-20.2.0\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-common:20.3.2] C:\Users\stalker\.gradle\caches\transforms-3\a9000f483ee4b6b9dd30216fe8449db0\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:15:1-39:12
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.0-alpha04] C:\Users\stalker\.gradle\caches\transforms-3\cb4f089636528cc6271b4b2dcefcf5b6\transformed\jetified-datastore-preferences-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-android:1.1.0-alpha04] C:\Users\stalker\.gradle\caches\transforms-3\6936f54c33616b50319668dda03dac56\transformed\jetified-datastore-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-core-android:1.1.0-alpha04] C:\Users\stalker\.gradle\caches\transforms-3\9a85ae18be6636ab6c655bbb58d7c0c4\transformed\jetified-datastore-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\stalker\.gradle\caches\transforms-3\c0bcebba9ab1973b010cfc79974260d6\transformed\jetified-firebase-appcheck-interop-17.0.0\AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\stalker\.gradle\caches\transforms-3\a617ab5253297a38157bccabda3e5e5a\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\stalker\.gradle\caches\transforms-3\fc5141b48ab7e5a57bb3fc847c962d7b\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\stalker\.gradle\caches\transforms-3\0179a844abf9ecd34a371c0c065db79a\transformed\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\stalker\.gradle\caches\transforms-3\a4aef9f3e80eb65c4c55d42803f35e80\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\stalker\.gradle\caches\transforms-3\702e74f7cae39290f2010006154d9065\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:16:1-26:12
+MERGED from [com.github.barteksc:android-pdf-viewer:3.2.0-beta.1] C:\Users\stalker\.gradle\caches\transforms-3\e04d0627bcbd501904af40d87249b5e2\transformed\jetified-android-pdf-viewer-3.2.0-beta.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.barteksc:pdfium-android:1.9.0] C:\Users\stalker\.gradle\caches\transforms-3\a85ca58893f0b04bf315cda6eca646cc\transformed\jetified-pdfium-android-1.9.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\de34a08acc1beda5fb538c8190cf0420\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.5.7] C:\Users\stalker\.gradle\caches\transforms-3\179224ac562b7deabe39d2ef7f181000\transformed\fragment-1.5.7\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\stalker\.gradle\caches\transforms-3\eddf52bbf84c36e06d56512cf2e7227a\transformed\jetified-activity-1.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.3] C:\Users\stalker\.gradle\caches\transforms-3\8fab60d159bba08ebef14e93c232f111\transformed\navigation-runtime-ktx-2.5.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.5.3] C:\Users\stalker\.gradle\caches\transforms-3\eb6365f053e3998d6a74c82f3acee04c\transformed\navigation-runtime-2.5.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.6.0] C:\Users\stalker\.gradle\caches\transforms-3\011ad4e2425a9561c20e00ebb8cda065\transformed\jetified-activity-ktx-1.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\stalker\.gradle\caches\transforms-3\e3f72a698d9466569f197ad1f674f11e\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\stalker\.gradle\caches\transforms-3\f05e7536bc59f29a21d4a12ce5d0f706\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] C:\Users\stalker\.gradle\caches\transforms-3\01eac3d8c53c243cd1284975a3802bab\transformed\navigation-common-ktx-2.5.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.5.3] C:\Users\stalker\.gradle\caches\transforms-3\79842107956a2f8a30ad227480636972\transformed\navigation-common-2.5.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] C:\Users\stalker\.gradle\caches\transforms-3\21b74c2c1062ae5dbe0c95211573f1e8\transformed\jetified-lifecycle-runtime-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\stalker\.gradle\caches\transforms-3\1c5cbcd8eff7f79c26304f56cbbf0c0b\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\stalker\.gradle\caches\transforms-3\3ba785dea8fd8318c588b0c1a9428c27\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\stalker\.gradle\caches\transforms-3\a56b62df78dbeb1eaaddce3c492b423f\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\stalker\.gradle\caches\transforms-3\062b328865107d364de0716596ac73e3\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\0b832ad6045d7194648b1d512553e59c\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\83619167936b5fa139a8495a214cdbad\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\08419de384e74ef9a98c45b78b9c2683\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\53b116c708add7bd9291762c546d0eb4\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\stalker\.gradle\caches\transforms-3\73fd7540a3518389524c70f7f13e6dc7\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\stalker\.gradle\caches\transforms-3\ea1f8f9e3c57b5b2b245a3155ee47b30\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\stalker\.gradle\caches\transforms-3\aa4c1cc56029bedd41fb2c82eb0f422a\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.10.0] C:\Users\stalker\.gradle\caches\transforms-3\16db31b86b5ec62037e35e014308d791\transformed\jetified-core-ktx-1.10.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\stalker\.gradle\caches\transforms-3\d00ede4abd394f5167d62cd1e13b30ea\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\stalker\.gradle\caches\transforms-3\83e9d6c78afcb035f8ac8ec2b3227d46\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\stalker\.gradle\caches\transforms-3\4a9196e86ff0a7b6c687320c7dac0d93\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\stalker\.gradle\caches\transforms-3\36629561954921f49832a4cd3fdd46d6\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\stalker\.gradle\caches\transforms-3\8477c81ce102e41eafe500c775b36eae\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\stalker\.gradle\caches\transforms-3\9b92ff8a284ec2cebb141799df99a3b6\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\e13b0b9c1b4aa2b67e527c47c34a7728\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\stalker\.gradle\caches\transforms-3\b606108fae7989ff7fb6956ffb10e256\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\stalker\.gradle\caches\transforms-3\e6923095c8a4733e06a5674c8fbdee1a\transformed\transition-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\a37490ae3b527c196a410a45a56c0be6\transformed\jetified-window-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\7f0cc6f2e0ab8b8378408bb53114e35d\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\5210c11f6c68ddf123fae0d9093a9467\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\09c994d85a5baa6a0f7fbfe4c4b05f1a\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.10.0] C:\Users\stalker\.gradle\caches\transforms-3\e4321476fea3e622807b231b2c7003dc\transformed\core-1.10.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\stalker\.gradle\caches\transforms-3\80251fd02524380e442c7cd37c3aaee4\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] C:\Users\stalker\.gradle\caches\transforms-3\c6d359f1cb01e29ac22832b736f70af8\transformed\jetified-lifecycle-livedata-core-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.1] C:\Users\stalker\.gradle\caches\transforms-3\bba5df3736f05d36b2a4f8bfde49e03b\transformed\jetified-lifecycle-livedata-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] C:\Users\stalker\.gradle\caches\transforms-3\33bb1303b3d127949de70ce05388340a\transformed\jetified-lifecycle-viewmodel-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.5.1] C:\Users\stalker\.gradle\caches\transforms-3\c633a455ff1d6c0bb5fb23c5c271ca43\transformed\room-runtime-2.5.1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.facebook.shimmer:shimmer:0.1.0] C:\Users\stalker\.gradle\caches\transforms-3\7803e20ba50d7fa33548b1d7ba1a2aaf\transformed\jetified-shimmer-0.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\f89c764e08de1b8663729d3ddc38de63\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\c1656dbb44a96fc547719a205ba4ffc3\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.1.0] C:\Users\stalker\.gradle\caches\transforms-3\5b4c1affe818a4cfb114e150c2c2a070\transformed\jetified-firebase-components-17.1.0\AndroidManifest.xml:15:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] C:\Users\stalker\.gradle\caches\transforms-3\b26a1366dd993aa78c3f5e44d040b779\transformed\jetified-gifdecoder-4.15.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\stalker\.gradle\caches\transforms-3\0313b9e2540ce28aea19d563427e2d14\transformed\exifinterface-1.3.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\stalker\.gradle\caches\transforms-3\5bf76a877c6e7d2a08b49ee422460ebc\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\54d70d4787791ca4515addc7181ab306\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\755f6c662ab82777bdea4eb921e13d83\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\stalker\.gradle\caches\transforms-3\e3d1919e709e2f0c2aaf88a8a3bdbbe9\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\stalker\.gradle\caches\transforms-3\934e95895c7bf08a8dec517e920027a8\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.3.1] C:\Users\stalker\.gradle\caches\transforms-3\f8650f572fda1ee431c145526e920693\transformed\sqlite-framework-2.3.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.3.1] C:\Users\stalker\.gradle\caches\transforms-3\c0dfae5e8b12cd943cb7d55f271adfec\transformed\sqlite-2.3.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\497ed7cc16dc13489d15e02fc8558f3b\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\4b111fb4b487ecf89cb786c8fa985e4a\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\209d34e3345388669073df0bafb7341e\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\e05deb14e05bdcd3348a8ead6c1589f4\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [io.grpc:grpc-android:1.52.1] C:\Users\stalker\.gradle\caches\transforms-3\e88d78b6b4868608d9675d0ea81ca7fc\transformed\jetified-grpc-android-1.52.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\stalker\.gradle\caches\transforms-3\6a07f4c45e2ca57c6e69e46e2d7b174b\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
+INJECTED from D:\BookApp\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from D:\BookApp\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from D:\BookApp\app\src\main\AndroidManifest.xml:2:1-44:12
+	package
+		INJECTED from D:\BookApp\app\src\main\AndroidManifest.xml
+		ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:2:1-44:12
+		INJECTED from D:\BookApp\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\BookApp\app\src\main\AndroidManifest.xml
+		ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:2:1-44:12
+		INJECTED from D:\BookApp\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from D:\BookApp\app\src\main\AndroidManifest.xml
+		ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:2:1-44:12
+		INJECTED from D:\BookApp\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:5:5-9:11
+	android:maxSdkVersion
+		ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:6:9-35
+	tools:ignore
+		ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:7:9-37
+	tools:replace
+		ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:8:9-46
+	android:name
+		ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:5:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:10:5-12:48
+	android:maxSdkVersion
+		ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:11:9-35
+	tools:replace
+		ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:12:9-46
+	android:name
+		ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:10:22-77
+uses-permission#android.permission.INTERNET
+ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:14:5-66
+MERGED from [com.google.firebase:firebase-firestore:24.6.0] C:\Users\stalker\.gradle\caches\transforms-3\a9fd78c7403aa4b5fad5ed14842c2f60\transformed\jetified-firebase-firestore-24.6.0\AndroidManifest.xml:13:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.6.0] C:\Users\stalker\.gradle\caches\transforms-3\a9fd78c7403aa4b5fad5ed14842c2f60\transformed\jetified-firebase-firestore-24.6.0\AndroidManifest.xml:13:5-67
+MERGED from [com.google.firebase:firebase-storage:20.2.0] C:\Users\stalker\.gradle\caches\transforms-3\dd5ff7e042939e814745b2f46886319a\transformed\jetified-firebase-storage-20.2.0\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-storage:20.2.0] C:\Users\stalker\.gradle\caches\transforms-3\dd5ff7e042939e814745b2f46886319a\transformed\jetified-firebase-storage-20.2.0\AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:14:22-64
+application
+ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:16:5-42:19
+MERGED from [com.google.android.material:material:1.9.0] C:\Users\stalker\.gradle\caches\transforms-3\0d115046d28e9822a0b4d11ec5ce711e\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.9.0] C:\Users\stalker\.gradle\caches\transforms-3\0d115046d28e9822a0b4d11ec5ce711e\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\stalker\.gradle\caches\transforms-3\7e08ce709706817b14b99fb84d9c2c4d\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\stalker\.gradle\caches\transforms-3\7e08ce709706817b14b99fb84d9c2c4d\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.15.1] C:\Users\stalker\.gradle\caches\transforms-3\7d6b3150361066e2ca4589463d0f06bb\transformed\jetified-glide-4.15.1\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.15.1] C:\Users\stalker\.gradle\caches\transforms-3\7d6b3150361066e2ca4589463d0f06bb\transformed\jetified-glide-4.15.1\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.6.0] C:\Users\stalker\.gradle\caches\transforms-3\de2edbe11bc365d503b08b92b2e9fe5b\transformed\jetified-firebase-firestore-ktx-24.6.0\AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.6.0] C:\Users\stalker\.gradle\caches\transforms-3\de2edbe11bc365d503b08b92b2e9fe5b\transformed\jetified-firebase-firestore-ktx-24.6.0\AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.firebase:firebase-storage-ktx:20.2.0] C:\Users\stalker\.gradle\caches\transforms-3\b3fa81eee7afe2dcc1ca764680e07876\transformed\jetified-firebase-storage-ktx-20.2.0\AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.firebase:firebase-storage-ktx:20.2.0] C:\Users\stalker\.gradle\caches\transforms-3\b3fa81eee7afe2dcc1ca764680e07876\transformed\jetified-firebase-storage-ktx-20.2.0\AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\stalker\.gradle\caches\transforms-3\090e0b4537013e5eaa11151832f30976\transformed\jetified-firebase-common-ktx-20.3.2\AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\stalker\.gradle\caches\transforms-3\090e0b4537013e5eaa11151832f30976\transformed\jetified-firebase-common-ktx-20.3.2\AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.firebase:firebase-firestore:24.6.0] C:\Users\stalker\.gradle\caches\transforms-3\a9fd78c7403aa4b5fad5ed14842c2f60\transformed\jetified-firebase-firestore-24.6.0\AndroidManifest.xml:15:5-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.6.0] C:\Users\stalker\.gradle\caches\transforms-3\a9fd78c7403aa4b5fad5ed14842c2f60\transformed\jetified-firebase-firestore-24.6.0\AndroidManifest.xml:15:5-23:19
+MERGED from [com.google.firebase:firebase-storage:20.2.0] C:\Users\stalker\.gradle\caches\transforms-3\dd5ff7e042939e814745b2f46886319a\transformed\jetified-firebase-storage-20.2.0\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-storage:20.2.0] C:\Users\stalker\.gradle\caches\transforms-3\dd5ff7e042939e814745b2f46886319a\transformed\jetified-firebase-storage-20.2.0\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-common:20.3.2] C:\Users\stalker\.gradle\caches\transforms-3\a9000f483ee4b6b9dd30216fe8449db0\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-common:20.3.2] C:\Users\stalker\.gradle\caches\transforms-3\a9000f483ee4b6b9dd30216fe8449db0\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\stalker\.gradle\caches\transforms-3\c0bcebba9ab1973b010cfc79974260d6\transformed\jetified-firebase-appcheck-interop-17.0.0\AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\stalker\.gradle\caches\transforms-3\c0bcebba9ab1973b010cfc79974260d6\transformed\jetified-firebase-appcheck-interop-17.0.0\AndroidManifest.xml:23:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\stalker\.gradle\caches\transforms-3\fc5141b48ab7e5a57bb3fc847c962d7b\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\stalker\.gradle\caches\transforms-3\fc5141b48ab7e5a57bb3fc847c962d7b\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\stalker\.gradle\caches\transforms-3\0179a844abf9ecd34a371c0c065db79a\transformed\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\stalker\.gradle\caches\transforms-3\0179a844abf9ecd34a371c0c065db79a\transformed\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\stalker\.gradle\caches\transforms-3\a4aef9f3e80eb65c4c55d42803f35e80\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\stalker\.gradle\caches\transforms-3\a4aef9f3e80eb65c4c55d42803f35e80\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\stalker\.gradle\caches\transforms-3\702e74f7cae39290f2010006154d9065\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\stalker\.gradle\caches\transforms-3\702e74f7cae39290f2010006154d9065\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\stalker\.gradle\caches\transforms-3\f05e7536bc59f29a21d4a12ce5d0f706\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\stalker\.gradle\caches\transforms-3\f05e7536bc59f29a21d4a12ce5d0f706\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\stalker\.gradle\caches\transforms-3\062b328865107d364de0716596ac73e3\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\stalker\.gradle\caches\transforms-3\062b328865107d364de0716596ac73e3\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\a37490ae3b527c196a410a45a56c0be6\transformed\jetified-window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\a37490ae3b527c196a410a45a56c0be6\transformed\jetified-window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.10.0] C:\Users\stalker\.gradle\caches\transforms-3\e4321476fea3e622807b231b2c7003dc\transformed\core-1.10.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.10.0] C:\Users\stalker\.gradle\caches\transforms-3\e4321476fea3e622807b231b2c7003dc\transformed\core-1.10.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.room:room-runtime:2.5.1] C:\Users\stalker\.gradle\caches\transforms-3\c633a455ff1d6c0bb5fb23c5c271ca43\transformed\room-runtime-2.5.1\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.5.1] C:\Users\stalker\.gradle\caches\transforms-3\c633a455ff1d6c0bb5fb23c5c271ca43\transformed\room-runtime-2.5.1\AndroidManifest.xml:23:5-29:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] C:\Users\stalker\.gradle\caches\transforms-3\b26a1366dd993aa78c3f5e44d040b779\transformed\jetified-gifdecoder-4.15.1\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] C:\Users\stalker\.gradle\caches\transforms-3\b26a1366dd993aa78c3f5e44d040b779\transformed\jetified-gifdecoder-4.15.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\stalker\.gradle\caches\transforms-3\5bf76a877c6e7d2a08b49ee422460ebc\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\stalker\.gradle\caches\transforms-3\5bf76a877c6e7d2a08b49ee422460ebc\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\stalker\.gradle\caches\transforms-3\e3d1919e709e2f0c2aaf88a8a3bdbbe9\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\stalker\.gradle\caches\transforms-3\e3d1919e709e2f0c2aaf88a8a3bdbbe9\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.10.0] C:\Users\stalker\.gradle\caches\transforms-3\e4321476fea3e622807b231b2c7003dc\transformed\core-1.10.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:24:9-35
+	android:label
+		ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:22:9-41
+	android:fullBackupContent
+		ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:19:9-54
+	android:roundIcon
+		ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:23:9-54
+	tools:targetApi
+		ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:26:9-29
+	android:icon
+		ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:20:9-43
+	android:allowBackup
+		ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:17:9-35
+	android:theme
+		ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:25:9-45
+	android:dataExtractionRules
+		ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:18:9-65
+	android:name
+		ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:21:9-32
+activity#uz.gita.bookapp.MainActivity
+ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:27:9-35:20
+	android:exported
+		ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:29:13-36
+	android:name
+		ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:28:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:30:13-34:29
+action#android.intent.action.MAIN
+ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:31:17-69
+	android:name
+		ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:31:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:33:17-77
+	android:name
+		ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:33:27-74
+receiver#uz.gita.bookapp.domain.downloadmanager.DownloadCompletedReceiver
+ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:37:9-41:20
+	android:exported
+		ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:37:84-107
+	android:name
+		ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:37:19-83
+intent-filter#action:name:android.intent.action.DOWNLOAD_COMPLETE
+ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:38:13-40:29
+action#android.intent.action.DOWNLOAD_COMPLETE
+ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:39:17-81
+	android:name
+		ADDED from D:\BookApp\app\src\main\AndroidManifest.xml:39:25-79
+uses-sdk
+INJECTED from D:\BookApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\BookApp\app\src\main\AndroidManifest.xml
+INJECTED from D:\BookApp\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.0.0] C:\Users\stalker\.gradle\caches\transforms-3\942dccb95ca9039a8cef907b751179d7\transformed\jetified-viewbinding-8.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.0.0] C:\Users\stalker\.gradle\caches\transforms-3\942dccb95ca9039a8cef907b751179d7\transformed\jetified-viewbinding-8.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-ktx:2.5.1] C:\Users\stalker\.gradle\caches\transforms-3\3a22bd702bc81ff3aabbe485d61fb840\transformed\jetified-room-ktx-2.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.5.1] C:\Users\stalker\.gradle\caches\transforms-3\3a22bd702bc81ff3aabbe485d61fb840\transformed\jetified-room-ktx-2.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.5.3] C:\Users\stalker\.gradle\caches\transforms-3\c8049829c74841e1cb0784f008a1f5da\transformed\navigation-fragment-ktx-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.5.3] C:\Users\stalker\.gradle\caches\transforms-3\c8049829c74841e1cb0784f008a1f5da\transformed\navigation-fragment-ktx-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.5.3] C:\Users\stalker\.gradle\caches\transforms-3\e8df2acdd1714307af4d065f701113ad\transformed\navigation-fragment-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.5.3] C:\Users\stalker\.gradle\caches\transforms-3\e8df2acdd1714307af4d065f701113ad\transformed\navigation-fragment-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.5.7] C:\Users\stalker\.gradle\caches\transforms-3\cc6893e5c33878da0c658a0e410dfbfb\transformed\jetified-fragment-ktx-1.5.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.5.7] C:\Users\stalker\.gradle\caches\transforms-3\cc6893e5c33878da0c658a0e410dfbfb\transformed\jetified-fragment-ktx-1.5.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.5.3] C:\Users\stalker\.gradle\caches\transforms-3\a7a0bbe1742d087eb35b30fda3d1b7ef\transformed\navigation-ui-ktx-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.5.3] C:\Users\stalker\.gradle\caches\transforms-3\a7a0bbe1742d087eb35b30fda3d1b7ef\transformed\navigation-ui-ktx-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.5.3] C:\Users\stalker\.gradle\caches\transforms-3\515e69f40ffc0fdb2820dc4ccc4e8be8\transformed\navigation-ui-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.5.3] C:\Users\stalker\.gradle\caches\transforms-3\515e69f40ffc0fdb2820dc4ccc4e8be8\transformed\navigation-ui-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.9.0] C:\Users\stalker\.gradle\caches\transforms-3\0d115046d28e9822a0b4d11ec5ce711e\transformed\material-1.9.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.9.0] C:\Users\stalker\.gradle\caches\transforms-3\0d115046d28e9822a0b4d11ec5ce711e\transformed\material-1.9.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\stalker\.gradle\caches\transforms-3\7e08ce709706817b14b99fb84d9c2c4d\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\stalker\.gradle\caches\transforms-3\7e08ce709706817b14b99fb84d9c2c4d\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\stalker\.gradle\caches\transforms-3\da056a675d3ebb1bece75749ba9f393c\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\stalker\.gradle\caches\transforms-3\da056a675d3ebb1bece75749ba9f393c\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\stalker\.gradle\caches\transforms-3\8e5575f954d68f7df2f4f7a0d5224f11\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\stalker\.gradle\caches\transforms-3\8e5575f954d68f7df2f4f7a0d5224f11\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.15.1] C:\Users\stalker\.gradle\caches\transforms-3\7d6b3150361066e2ca4589463d0f06bb\transformed\jetified-glide-4.15.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.15.1] C:\Users\stalker\.gradle\caches\transforms-3\7d6b3150361066e2ca4589463d0f06bb\transformed\jetified-glide-4.15.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\89b30094cbe5e8f87ffaccf9cab1bc82\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\89b30094cbe5e8f87ffaccf9cab1bc82\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.6.0] C:\Users\stalker\.gradle\caches\transforms-3\de2edbe11bc365d503b08b92b2e9fe5b\transformed\jetified-firebase-firestore-ktx-24.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.6.0] C:\Users\stalker\.gradle\caches\transforms-3\de2edbe11bc365d503b08b92b2e9fe5b\transformed\jetified-firebase-firestore-ktx-24.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-storage-ktx:20.2.0] C:\Users\stalker\.gradle\caches\transforms-3\b3fa81eee7afe2dcc1ca764680e07876\transformed\jetified-firebase-storage-ktx-20.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-storage-ktx:20.2.0] C:\Users\stalker\.gradle\caches\transforms-3\b3fa81eee7afe2dcc1ca764680e07876\transformed\jetified-firebase-storage-ktx-20.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\stalker\.gradle\caches\transforms-3\090e0b4537013e5eaa11151832f30976\transformed\jetified-firebase-common-ktx-20.3.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\stalker\.gradle\caches\transforms-3\090e0b4537013e5eaa11151832f30976\transformed\jetified-firebase-common-ktx-20.3.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-firestore:24.6.0] C:\Users\stalker\.gradle\caches\transforms-3\a9fd78c7403aa4b5fad5ed14842c2f60\transformed\jetified-firebase-firestore-24.6.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-firestore:24.6.0] C:\Users\stalker\.gradle\caches\transforms-3\a9fd78c7403aa4b5fad5ed14842c2f60\transformed\jetified-firebase-firestore-24.6.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-storage:20.2.0] C:\Users\stalker\.gradle\caches\transforms-3\dd5ff7e042939e814745b2f46886319a\transformed\jetified-firebase-storage-20.2.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-storage:20.2.0] C:\Users\stalker\.gradle\caches\transforms-3\dd5ff7e042939e814745b2f46886319a\transformed\jetified-firebase-storage-20.2.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:20.3.2] C:\Users\stalker\.gradle\caches\transforms-3\a9000f483ee4b6b9dd30216fe8449db0\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:20.3.2] C:\Users\stalker\.gradle\caches\transforms-3\a9000f483ee4b6b9dd30216fe8449db0\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.0-alpha04] C:\Users\stalker\.gradle\caches\transforms-3\cb4f089636528cc6271b4b2dcefcf5b6\transformed\jetified-datastore-preferences-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.0-alpha04] C:\Users\stalker\.gradle\caches\transforms-3\cb4f089636528cc6271b4b2dcefcf5b6\transformed\jetified-datastore-preferences-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.0-alpha04] C:\Users\stalker\.gradle\caches\transforms-3\6936f54c33616b50319668dda03dac56\transformed\jetified-datastore-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.0-alpha04] C:\Users\stalker\.gradle\caches\transforms-3\6936f54c33616b50319668dda03dac56\transformed\jetified-datastore-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.0-alpha04] C:\Users\stalker\.gradle\caches\transforms-3\9a85ae18be6636ab6c655bbb58d7c0c4\transformed\jetified-datastore-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.0-alpha04] C:\Users\stalker\.gradle\caches\transforms-3\9a85ae18be6636ab6c655bbb58d7c0c4\transformed\jetified-datastore-core-release\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\stalker\.gradle\caches\transforms-3\c0bcebba9ab1973b010cfc79974260d6\transformed\jetified-firebase-appcheck-interop-17.0.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\stalker\.gradle\caches\transforms-3\c0bcebba9ab1973b010cfc79974260d6\transformed\jetified-firebase-appcheck-interop-17.0.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\stalker\.gradle\caches\transforms-3\a617ab5253297a38157bccabda3e5e5a\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\stalker\.gradle\caches\transforms-3\a617ab5253297a38157bccabda3e5e5a\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\stalker\.gradle\caches\transforms-3\fc5141b48ab7e5a57bb3fc847c962d7b\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\stalker\.gradle\caches\transforms-3\fc5141b48ab7e5a57bb3fc847c962d7b\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\stalker\.gradle\caches\transforms-3\0179a844abf9ecd34a371c0c065db79a\transformed\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\stalker\.gradle\caches\transforms-3\0179a844abf9ecd34a371c0c065db79a\transformed\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\stalker\.gradle\caches\transforms-3\a4aef9f3e80eb65c4c55d42803f35e80\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\stalker\.gradle\caches\transforms-3\a4aef9f3e80eb65c4c55d42803f35e80\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\stalker\.gradle\caches\transforms-3\702e74f7cae39290f2010006154d9065\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\stalker\.gradle\caches\transforms-3\702e74f7cae39290f2010006154d9065\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.github.barteksc:android-pdf-viewer:3.2.0-beta.1] C:\Users\stalker\.gradle\caches\transforms-3\e04d0627bcbd501904af40d87249b5e2\transformed\jetified-android-pdf-viewer-3.2.0-beta.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:android-pdf-viewer:3.2.0-beta.1] C:\Users\stalker\.gradle\caches\transforms-3\e04d0627bcbd501904af40d87249b5e2\transformed\jetified-android-pdf-viewer-3.2.0-beta.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:pdfium-android:1.9.0] C:\Users\stalker\.gradle\caches\transforms-3\a85ca58893f0b04bf315cda6eca646cc\transformed\jetified-pdfium-android-1.9.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:pdfium-android:1.9.0] C:\Users\stalker\.gradle\caches\transforms-3\a85ca58893f0b04bf315cda6eca646cc\transformed\jetified-pdfium-android-1.9.0\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\de34a08acc1beda5fb538c8190cf0420\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\de34a08acc1beda5fb538c8190cf0420\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.5.7] C:\Users\stalker\.gradle\caches\transforms-3\179224ac562b7deabe39d2ef7f181000\transformed\fragment-1.5.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.7] C:\Users\stalker\.gradle\caches\transforms-3\179224ac562b7deabe39d2ef7f181000\transformed\fragment-1.5.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\stalker\.gradle\caches\transforms-3\eddf52bbf84c36e06d56512cf2e7227a\transformed\jetified-activity-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\stalker\.gradle\caches\transforms-3\eddf52bbf84c36e06d56512cf2e7227a\transformed\jetified-activity-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.3] C:\Users\stalker\.gradle\caches\transforms-3\8fab60d159bba08ebef14e93c232f111\transformed\navigation-runtime-ktx-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.3] C:\Users\stalker\.gradle\caches\transforms-3\8fab60d159bba08ebef14e93c232f111\transformed\navigation-runtime-ktx-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.5.3] C:\Users\stalker\.gradle\caches\transforms-3\eb6365f053e3998d6a74c82f3acee04c\transformed\navigation-runtime-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.5.3] C:\Users\stalker\.gradle\caches\transforms-3\eb6365f053e3998d6a74c82f3acee04c\transformed\navigation-runtime-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.6.0] C:\Users\stalker\.gradle\caches\transforms-3\011ad4e2425a9561c20e00ebb8cda065\transformed\jetified-activity-ktx-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.6.0] C:\Users\stalker\.gradle\caches\transforms-3\011ad4e2425a9561c20e00ebb8cda065\transformed\jetified-activity-ktx-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\stalker\.gradle\caches\transforms-3\e3f72a698d9466569f197ad1f674f11e\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\stalker\.gradle\caches\transforms-3\e3f72a698d9466569f197ad1f674f11e\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\stalker\.gradle\caches\transforms-3\f05e7536bc59f29a21d4a12ce5d0f706\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\stalker\.gradle\caches\transforms-3\f05e7536bc59f29a21d4a12ce5d0f706\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] C:\Users\stalker\.gradle\caches\transforms-3\01eac3d8c53c243cd1284975a3802bab\transformed\navigation-common-ktx-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] C:\Users\stalker\.gradle\caches\transforms-3\01eac3d8c53c243cd1284975a3802bab\transformed\navigation-common-ktx-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.5.3] C:\Users\stalker\.gradle\caches\transforms-3\79842107956a2f8a30ad227480636972\transformed\navigation-common-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.5.3] C:\Users\stalker\.gradle\caches\transforms-3\79842107956a2f8a30ad227480636972\transformed\navigation-common-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] C:\Users\stalker\.gradle\caches\transforms-3\21b74c2c1062ae5dbe0c95211573f1e8\transformed\jetified-lifecycle-runtime-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] C:\Users\stalker\.gradle\caches\transforms-3\21b74c2c1062ae5dbe0c95211573f1e8\transformed\jetified-lifecycle-runtime-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\stalker\.gradle\caches\transforms-3\1c5cbcd8eff7f79c26304f56cbbf0c0b\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\stalker\.gradle\caches\transforms-3\1c5cbcd8eff7f79c26304f56cbbf0c0b\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\stalker\.gradle\caches\transforms-3\3ba785dea8fd8318c588b0c1a9428c27\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\stalker\.gradle\caches\transforms-3\3ba785dea8fd8318c588b0c1a9428c27\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\stalker\.gradle\caches\transforms-3\a56b62df78dbeb1eaaddce3c492b423f\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\stalker\.gradle\caches\transforms-3\a56b62df78dbeb1eaaddce3c492b423f\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\stalker\.gradle\caches\transforms-3\062b328865107d364de0716596ac73e3\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\stalker\.gradle\caches\transforms-3\062b328865107d364de0716596ac73e3\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\0b832ad6045d7194648b1d512553e59c\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\0b832ad6045d7194648b1d512553e59c\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\83619167936b5fa139a8495a214cdbad\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\83619167936b5fa139a8495a214cdbad\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\08419de384e74ef9a98c45b78b9c2683\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\08419de384e74ef9a98c45b78b9c2683\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\53b116c708add7bd9291762c546d0eb4\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\53b116c708add7bd9291762c546d0eb4\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\stalker\.gradle\caches\transforms-3\73fd7540a3518389524c70f7f13e6dc7\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\stalker\.gradle\caches\transforms-3\73fd7540a3518389524c70f7f13e6dc7\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\stalker\.gradle\caches\transforms-3\ea1f8f9e3c57b5b2b245a3155ee47b30\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\stalker\.gradle\caches\transforms-3\ea1f8f9e3c57b5b2b245a3155ee47b30\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\stalker\.gradle\caches\transforms-3\aa4c1cc56029bedd41fb2c82eb0f422a\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\stalker\.gradle\caches\transforms-3\aa4c1cc56029bedd41fb2c82eb0f422a\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.10.0] C:\Users\stalker\.gradle\caches\transforms-3\16db31b86b5ec62037e35e014308d791\transformed\jetified-core-ktx-1.10.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.10.0] C:\Users\stalker\.gradle\caches\transforms-3\16db31b86b5ec62037e35e014308d791\transformed\jetified-core-ktx-1.10.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\stalker\.gradle\caches\transforms-3\d00ede4abd394f5167d62cd1e13b30ea\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\stalker\.gradle\caches\transforms-3\d00ede4abd394f5167d62cd1e13b30ea\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\stalker\.gradle\caches\transforms-3\83e9d6c78afcb035f8ac8ec2b3227d46\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\stalker\.gradle\caches\transforms-3\83e9d6c78afcb035f8ac8ec2b3227d46\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\stalker\.gradle\caches\transforms-3\4a9196e86ff0a7b6c687320c7dac0d93\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\stalker\.gradle\caches\transforms-3\4a9196e86ff0a7b6c687320c7dac0d93\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\stalker\.gradle\caches\transforms-3\36629561954921f49832a4cd3fdd46d6\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\stalker\.gradle\caches\transforms-3\36629561954921f49832a4cd3fdd46d6\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\stalker\.gradle\caches\transforms-3\8477c81ce102e41eafe500c775b36eae\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\stalker\.gradle\caches\transforms-3\8477c81ce102e41eafe500c775b36eae\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\stalker\.gradle\caches\transforms-3\9b92ff8a284ec2cebb141799df99a3b6\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\stalker\.gradle\caches\transforms-3\9b92ff8a284ec2cebb141799df99a3b6\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\e13b0b9c1b4aa2b67e527c47c34a7728\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\e13b0b9c1b4aa2b67e527c47c34a7728\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\stalker\.gradle\caches\transforms-3\b606108fae7989ff7fb6956ffb10e256\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\stalker\.gradle\caches\transforms-3\b606108fae7989ff7fb6956ffb10e256\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\stalker\.gradle\caches\transforms-3\e6923095c8a4733e06a5674c8fbdee1a\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\stalker\.gradle\caches\transforms-3\e6923095c8a4733e06a5674c8fbdee1a\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\a37490ae3b527c196a410a45a56c0be6\transformed\jetified-window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\a37490ae3b527c196a410a45a56c0be6\transformed\jetified-window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\7f0cc6f2e0ab8b8378408bb53114e35d\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\7f0cc6f2e0ab8b8378408bb53114e35d\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\5210c11f6c68ddf123fae0d9093a9467\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\5210c11f6c68ddf123fae0d9093a9467\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\09c994d85a5baa6a0f7fbfe4c4b05f1a\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\09c994d85a5baa6a0f7fbfe4c4b05f1a\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.10.0] C:\Users\stalker\.gradle\caches\transforms-3\e4321476fea3e622807b231b2c7003dc\transformed\core-1.10.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.10.0] C:\Users\stalker\.gradle\caches\transforms-3\e4321476fea3e622807b231b2c7003dc\transformed\core-1.10.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\stalker\.gradle\caches\transforms-3\80251fd02524380e442c7cd37c3aaee4\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\stalker\.gradle\caches\transforms-3\80251fd02524380e442c7cd37c3aaee4\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] C:\Users\stalker\.gradle\caches\transforms-3\c6d359f1cb01e29ac22832b736f70af8\transformed\jetified-lifecycle-livedata-core-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] C:\Users\stalker\.gradle\caches\transforms-3\c6d359f1cb01e29ac22832b736f70af8\transformed\jetified-lifecycle-livedata-core-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.1] C:\Users\stalker\.gradle\caches\transforms-3\bba5df3736f05d36b2a4f8bfde49e03b\transformed\jetified-lifecycle-livedata-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.1] C:\Users\stalker\.gradle\caches\transforms-3\bba5df3736f05d36b2a4f8bfde49e03b\transformed\jetified-lifecycle-livedata-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] C:\Users\stalker\.gradle\caches\transforms-3\33bb1303b3d127949de70ce05388340a\transformed\jetified-lifecycle-viewmodel-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] C:\Users\stalker\.gradle\caches\transforms-3\33bb1303b3d127949de70ce05388340a\transformed\jetified-lifecycle-viewmodel-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.5.1] C:\Users\stalker\.gradle\caches\transforms-3\c633a455ff1d6c0bb5fb23c5c271ca43\transformed\room-runtime-2.5.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.5.1] C:\Users\stalker\.gradle\caches\transforms-3\c633a455ff1d6c0bb5fb23c5c271ca43\transformed\room-runtime-2.5.1\AndroidManifest.xml:21:5-44
+MERGED from [com.facebook.shimmer:shimmer:0.1.0] C:\Users\stalker\.gradle\caches\transforms-3\7803e20ba50d7fa33548b1d7ba1a2aaf\transformed\jetified-shimmer-0.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.shimmer:shimmer:0.1.0] C:\Users\stalker\.gradle\caches\transforms-3\7803e20ba50d7fa33548b1d7ba1a2aaf\transformed\jetified-shimmer-0.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\f89c764e08de1b8663729d3ddc38de63\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\f89c764e08de1b8663729d3ddc38de63\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\c1656dbb44a96fc547719a205ba4ffc3\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\c1656dbb44a96fc547719a205ba4ffc3\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.1.0] C:\Users\stalker\.gradle\caches\transforms-3\5b4c1affe818a4cfb114e150c2c2a070\transformed\jetified-firebase-components-17.1.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] C:\Users\stalker\.gradle\caches\transforms-3\5b4c1affe818a4cfb114e150c2c2a070\transformed\jetified-firebase-components-17.1.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] C:\Users\stalker\.gradle\caches\transforms-3\b26a1366dd993aa78c3f5e44d040b779\transformed\jetified-gifdecoder-4.15.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] C:\Users\stalker\.gradle\caches\transforms-3\b26a1366dd993aa78c3f5e44d040b779\transformed\jetified-gifdecoder-4.15.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\stalker\.gradle\caches\transforms-3\0313b9e2540ce28aea19d563427e2d14\transformed\exifinterface-1.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\stalker\.gradle\caches\transforms-3\0313b9e2540ce28aea19d563427e2d14\transformed\exifinterface-1.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\stalker\.gradle\caches\transforms-3\5bf76a877c6e7d2a08b49ee422460ebc\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\stalker\.gradle\caches\transforms-3\5bf76a877c6e7d2a08b49ee422460ebc\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\54d70d4787791ca4515addc7181ab306\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\54d70d4787791ca4515addc7181ab306\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\755f6c662ab82777bdea4eb921e13d83\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\755f6c662ab82777bdea4eb921e13d83\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\stalker\.gradle\caches\transforms-3\e3d1919e709e2f0c2aaf88a8a3bdbbe9\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\stalker\.gradle\caches\transforms-3\e3d1919e709e2f0c2aaf88a8a3bdbbe9\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\stalker\.gradle\caches\transforms-3\934e95895c7bf08a8dec517e920027a8\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\stalker\.gradle\caches\transforms-3\934e95895c7bf08a8dec517e920027a8\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.3.1] C:\Users\stalker\.gradle\caches\transforms-3\f8650f572fda1ee431c145526e920693\transformed\sqlite-framework-2.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.3.1] C:\Users\stalker\.gradle\caches\transforms-3\f8650f572fda1ee431c145526e920693\transformed\sqlite-framework-2.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.1] C:\Users\stalker\.gradle\caches\transforms-3\c0dfae5e8b12cd943cb7d55f271adfec\transformed\sqlite-2.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.1] C:\Users\stalker\.gradle\caches\transforms-3\c0dfae5e8b12cd943cb7d55f271adfec\transformed\sqlite-2.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\497ed7cc16dc13489d15e02fc8558f3b\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\497ed7cc16dc13489d15e02fc8558f3b\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\4b111fb4b487ecf89cb786c8fa985e4a\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\4b111fb4b487ecf89cb786c8fa985e4a\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\209d34e3345388669073df0bafb7341e\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\209d34e3345388669073df0bafb7341e\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\e05deb14e05bdcd3348a8ead6c1589f4\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\e05deb14e05bdcd3348a8ead6c1589f4\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [io.grpc:grpc-android:1.52.1] C:\Users\stalker\.gradle\caches\transforms-3\e88d78b6b4868608d9675d0ea81ca7fc\transformed\jetified-grpc-android-1.52.1\AndroidManifest.xml:5:5-7:41
+MERGED from [io.grpc:grpc-android:1.52.1] C:\Users\stalker\.gradle\caches\transforms-3\e88d78b6b4868608d9675d0ea81ca7fc\transformed\jetified-grpc-android-1.52.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\stalker\.gradle\caches\transforms-3\6a07f4c45e2ca57c6e69e46e2d7b174b\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\stalker\.gradle\caches\transforms-3\6a07f4c45e2ca57c6e69e46e2d7b174b\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+INJECTED from D:\BookApp\app\src\main\AndroidManifest.xml
+INJECTED from D:\BookApp\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\BookApp\app\src\main\AndroidManifest.xml
+		ADDED from D:\BookApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\BookApp\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\BookApp\app\src\main\AndroidManifest.xml
+		ADDED from D:\BookApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\BookApp\app\src\main\AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-firestore-ktx:24.6.0] C:\Users\stalker\.gradle\caches\transforms-3\de2edbe11bc365d503b08b92b2e9fe5b\transformed\jetified-firebase-firestore-ktx-24.6.0\AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.firebase:firebase-storage-ktx:20.2.0] C:\Users\stalker\.gradle\caches\transforms-3\b3fa81eee7afe2dcc1ca764680e07876\transformed\jetified-firebase-storage-ktx-20.2.0\AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.firebase:firebase-storage-ktx:20.2.0] C:\Users\stalker\.gradle\caches\transforms-3\b3fa81eee7afe2dcc1ca764680e07876\transformed\jetified-firebase-storage-ktx-20.2.0\AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\stalker\.gradle\caches\transforms-3\090e0b4537013e5eaa11151832f30976\transformed\jetified-firebase-common-ktx-20.3.2\AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\stalker\.gradle\caches\transforms-3\090e0b4537013e5eaa11151832f30976\transformed\jetified-firebase-common-ktx-20.3.2\AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.firebase:firebase-firestore:24.6.0] C:\Users\stalker\.gradle\caches\transforms-3\a9fd78c7403aa4b5fad5ed14842c2f60\transformed\jetified-firebase-firestore-24.6.0\AndroidManifest.xml:16:9-22:19
+MERGED from [com.google.firebase:firebase-firestore:24.6.0] C:\Users\stalker\.gradle\caches\transforms-3\a9fd78c7403aa4b5fad5ed14842c2f60\transformed\jetified-firebase-firestore-24.6.0\AndroidManifest.xml:16:9-22:19
+MERGED from [com.google.firebase:firebase-storage:20.2.0] C:\Users\stalker\.gradle\caches\transforms-3\dd5ff7e042939e814745b2f46886319a\transformed\jetified-firebase-storage-20.2.0\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-storage:20.2.0] C:\Users\stalker\.gradle\caches\transforms-3\dd5ff7e042939e814745b2f46886319a\transformed\jetified-firebase-storage-20.2.0\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-common:20.3.2] C:\Users\stalker\.gradle\caches\transforms-3\a9000f483ee4b6b9dd30216fe8449db0\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:20.3.2] C:\Users\stalker\.gradle\caches\transforms-3\a9000f483ee4b6b9dd30216fe8449db0\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-firestore-ktx:24.6.0] C:\Users\stalker\.gradle\caches\transforms-3\de2edbe11bc365d503b08b92b2e9fe5b\transformed\jetified-firebase-firestore-ktx-24.6.0\AndroidManifest.xml:13:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.3.2] C:\Users\stalker\.gradle\caches\transforms-3\a9000f483ee4b6b9dd30216fe8449db0\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.2] C:\Users\stalker\.gradle\caches\transforms-3\a9000f483ee4b6b9dd30216fe8449db0\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore-ktx:24.6.0] C:\Users\stalker\.gradle\caches\transforms-3\de2edbe11bc365d503b08b92b2e9fe5b\transformed\jetified-firebase-firestore-ktx-24.6.0\AndroidManifest.xml:12:13-84
+meta-data#com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar
+ADDED from [com.google.firebase:firebase-firestore-ktx:24.6.0] C:\Users\stalker\.gradle\caches\transforms-3\de2edbe11bc365d503b08b92b2e9fe5b\transformed\jetified-firebase-firestore-ktx-24.6.0\AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore-ktx:24.6.0] C:\Users\stalker\.gradle\caches\transforms-3\de2edbe11bc365d503b08b92b2e9fe5b\transformed\jetified-firebase-firestore-ktx-24.6.0\AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore-ktx:24.6.0] C:\Users\stalker\.gradle\caches\transforms-3\de2edbe11bc365d503b08b92b2e9fe5b\transformed\jetified-firebase-firestore-ktx-24.6.0\AndroidManifest.xml:15:17-126
+meta-data#com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageKtxRegistrar
+ADDED from [com.google.firebase:firebase-storage-ktx:20.2.0] C:\Users\stalker\.gradle\caches\transforms-3\b3fa81eee7afe2dcc1ca764680e07876\transformed\jetified-firebase-storage-ktx-20.2.0\AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage-ktx:20.2.0] C:\Users\stalker\.gradle\caches\transforms-3\b3fa81eee7afe2dcc1ca764680e07876\transformed\jetified-firebase-storage-ktx-20.2.0\AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage-ktx:20.2.0] C:\Users\stalker\.gradle\caches\transforms-3\b3fa81eee7afe2dcc1ca764680e07876\transformed\jetified-firebase-storage-ktx-20.2.0\AndroidManifest.xml:15:17-122
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\stalker\.gradle\caches\transforms-3\090e0b4537013e5eaa11151832f30976\transformed\jetified-firebase-common-ktx-20.3.2\AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\stalker\.gradle\caches\transforms-3\090e0b4537013e5eaa11151832f30976\transformed\jetified-firebase-common-ktx-20.3.2\AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\stalker\.gradle\caches\transforms-3\090e0b4537013e5eaa11151832f30976\transformed\jetified-firebase-common-ktx-20.3.2\AndroidManifest.xml:15:17-113
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-firestore:24.6.0] C:\Users\stalker\.gradle\caches\transforms-3\a9fd78c7403aa4b5fad5ed14842c2f60\transformed\jetified-firebase-firestore-24.6.0\AndroidManifest.xml:12:5-79
+MERGED from [com.google.firebase:firebase-storage:20.2.0] C:\Users\stalker\.gradle\caches\transforms-3\dd5ff7e042939e814745b2f46886319a\transformed\jetified-firebase-storage-20.2.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-storage:20.2.0] C:\Users\stalker\.gradle\caches\transforms-3\dd5ff7e042939e814745b2f46886319a\transformed\jetified-firebase-storage-20.2.0\AndroidManifest.xml:25:5-79
+MERGED from [io.grpc:grpc-android:1.52.1] C:\Users\stalker\.gradle\caches\transforms-3\e88d78b6b4868608d9675d0ea81ca7fc\transformed\jetified-grpc-android-1.52.1\AndroidManifest.xml:9:5-79
+MERGED from [io.grpc:grpc-android:1.52.1] C:\Users\stalker\.gradle\caches\transforms-3\e88d78b6b4868608d9675d0ea81ca7fc\transformed\jetified-grpc-android-1.52.1\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.6.0] C:\Users\stalker\.gradle\caches\transforms-3\a9fd78c7403aa4b5fad5ed14842c2f60\transformed\jetified-firebase-firestore-24.6.0\AndroidManifest.xml:12:22-76
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.6.0] C:\Users\stalker\.gradle\caches\transforms-3\a9fd78c7403aa4b5fad5ed14842c2f60\transformed\jetified-firebase-firestore-24.6.0\AndroidManifest.xml:19:13-21:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.6.0] C:\Users\stalker\.gradle\caches\transforms-3\a9fd78c7403aa4b5fad5ed14842c2f60\transformed\jetified-firebase-firestore-24.6.0\AndroidManifest.xml:21:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.6.0] C:\Users\stalker\.gradle\caches\transforms-3\a9fd78c7403aa4b5fad5ed14842c2f60\transformed\jetified-firebase-firestore-24.6.0\AndroidManifest.xml:20:17-111
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.2.0] C:\Users\stalker\.gradle\caches\transforms-3\dd5ff7e042939e814745b2f46886319a\transformed\jetified-firebase-storage-20.2.0\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.2.0] C:\Users\stalker\.gradle\caches\transforms-3\dd5ff7e042939e814745b2f46886319a\transformed\jetified-firebase-storage-20.2.0\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.2.0] C:\Users\stalker\.gradle\caches\transforms-3\dd5ff7e042939e814745b2f46886319a\transformed\jetified-firebase-storage-20.2.0\AndroidManifest.xml:33:17-107
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.3.2] C:\Users\stalker\.gradle\caches\transforms-3\a9000f483ee4b6b9dd30216fe8449db0\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.3.2] C:\Users\stalker\.gradle\caches\transforms-3\a9000f483ee4b6b9dd30216fe8449db0\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.3.2] C:\Users\stalker\.gradle\caches\transforms-3\a9000f483ee4b6b9dd30216fe8449db0\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.2] C:\Users\stalker\.gradle\caches\transforms-3\a9000f483ee4b6b9dd30216fe8449db0\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.3.2] C:\Users\stalker\.gradle\caches\transforms-3\a9000f483ee4b6b9dd30216fe8449db0\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.3.2] C:\Users\stalker\.gradle\caches\transforms-3\a9000f483ee4b6b9dd30216fe8449db0\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\stalker\.gradle\caches\transforms-3\fc5141b48ab7e5a57bb3fc847c962d7b\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\stalker\.gradle\caches\transforms-3\fc5141b48ab7e5a57bb3fc847c962d7b\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\stalker\.gradle\caches\transforms-3\fc5141b48ab7e5a57bb3fc847c962d7b\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\stalker\.gradle\caches\transforms-3\fc5141b48ab7e5a57bb3fc847c962d7b\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\stalker\.gradle\caches\transforms-3\702e74f7cae39290f2010006154d9065\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\stalker\.gradle\caches\transforms-3\702e74f7cae39290f2010006154d9065\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\stalker\.gradle\caches\transforms-3\702e74f7cae39290f2010006154d9065\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\stalker\.gradle\caches\transforms-3\f05e7536bc59f29a21d4a12ce5d0f706\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\stalker\.gradle\caches\transforms-3\062b328865107d364de0716596ac73e3\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\stalker\.gradle\caches\transforms-3\062b328865107d364de0716596ac73e3\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\stalker\.gradle\caches\transforms-3\5bf76a877c6e7d2a08b49ee422460ebc\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\stalker\.gradle\caches\transforms-3\5bf76a877c6e7d2a08b49ee422460ebc\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\stalker\.gradle\caches\transforms-3\f05e7536bc59f29a21d4a12ce5d0f706\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\stalker\.gradle\caches\transforms-3\f05e7536bc59f29a21d4a12ce5d0f706\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\stalker\.gradle\caches\transforms-3\f05e7536bc59f29a21d4a12ce5d0f706\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\stalker\.gradle\caches\transforms-3\f05e7536bc59f29a21d4a12ce5d0f706\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\stalker\.gradle\caches\transforms-3\f05e7536bc59f29a21d4a12ce5d0f706\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\stalker\.gradle\caches\transforms-3\f05e7536bc59f29a21d4a12ce5d0f706\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\stalker\.gradle\caches\transforms-3\f05e7536bc59f29a21d4a12ce5d0f706\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\stalker\.gradle\caches\transforms-3\062b328865107d364de0716596ac73e3\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\stalker\.gradle\caches\transforms-3\062b328865107d364de0716596ac73e3\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\stalker\.gradle\caches\transforms-3\062b328865107d364de0716596ac73e3\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\a37490ae3b527c196a410a45a56c0be6\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\a37490ae3b527c196a410a45a56c0be6\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\a37490ae3b527c196a410a45a56c0be6\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\a37490ae3b527c196a410a45a56c0be6\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\a37490ae3b527c196a410a45a56c0be6\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\stalker\.gradle\caches\transforms-3\a37490ae3b527c196a410a45a56c0be6\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.0] C:\Users\stalker\.gradle\caches\transforms-3\e4321476fea3e622807b231b2c7003dc\transformed\core-1.10.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.10.0] C:\Users\stalker\.gradle\caches\transforms-3\e4321476fea3e622807b231b2c7003dc\transformed\core-1.10.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.10.0] C:\Users\stalker\.gradle\caches\transforms-3\e4321476fea3e622807b231b2c7003dc\transformed\core-1.10.0\AndroidManifest.xml:23:9-81
+permission#uz.gita.bookapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.0] C:\Users\stalker\.gradle\caches\transforms-3\e4321476fea3e622807b231b2c7003dc\transformed\core-1.10.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.10.0] C:\Users\stalker\.gradle\caches\transforms-3\e4321476fea3e622807b231b2c7003dc\transformed\core-1.10.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.10.0] C:\Users\stalker\.gradle\caches\transforms-3\e4321476fea3e622807b231b2c7003dc\transformed\core-1.10.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.0] C:\Users\stalker\.gradle\caches\transforms-3\e4321476fea3e622807b231b2c7003dc\transformed\core-1.10.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.10.0] C:\Users\stalker\.gradle\caches\transforms-3\e4321476fea3e622807b231b2c7003dc\transformed\core-1.10.0\AndroidManifest.xml:26:22-94
+uses-permission#uz.gita.bookapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.0] C:\Users\stalker\.gradle\caches\transforms-3\e4321476fea3e622807b231b2c7003dc\transformed\core-1.10.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.10.0] C:\Users\stalker\.gradle\caches\transforms-3\e4321476fea3e622807b231b2c7003dc\transformed\core-1.10.0\AndroidManifest.xml:26:22-94
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.5.1] C:\Users\stalker\.gradle\caches\transforms-3\c633a455ff1d6c0bb5fb23c5c271ca43\transformed\room-runtime-2.5.1\AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.5.1] C:\Users\stalker\.gradle\caches\transforms-3\c633a455ff1d6c0bb5fb23c5c271ca43\transformed\room-runtime-2.5.1\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.5.1] C:\Users\stalker\.gradle\caches\transforms-3\c633a455ff1d6c0bb5fb23c5c271ca43\transformed\room-runtime-2.5.1\AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.5.1] C:\Users\stalker\.gradle\caches\transforms-3\c633a455ff1d6c0bb5fb23c5c271ca43\transformed\room-runtime-2.5.1\AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.5.1] C:\Users\stalker\.gradle\caches\transforms-3\c633a455ff1d6c0bb5fb23c5c271ca43\transformed\room-runtime-2.5.1\AndroidManifest.xml:25:13-74
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\stalker\.gradle\caches\transforms-3\67fef4355900a8c392b605edeec00b32\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92

@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "uz.gita.bookapp-mergeDebugResources-62:/layout/screen_profile.xml",
+        "source": "uz.gita.bookapp-main-65:/layout/screen_profile.xml"
+    },
+    {
+        "merged": "uz.gita.bookapp-mergeDebugResources-62:/layout/screen_home.xml",
+        "source": "uz.gita.bookapp-main-65:/layout/screen_home.xml"
+    },
+    {
+        "merged": "uz.gita.bookapp-mergeDebugResources-62:/layout/screen_book_info.xml",
+        "source": "uz.gita.bookapp-main-65:/layout/screen_book_info.xml"
+    },
+    {
+        "merged": "uz.gita.bookapp-mergeDebugResources-62:/layout/screen_explore.xml",
+        "source": "uz.gita.bookapp-main-65:/layout/screen_explore.xml"
+    },
+    {
+        "merged": "uz.gita.bookapp-mergeDebugResources-62:/layout/item_book.xml",
+        "source": "uz.gita.bookapp-main-65:/layout/item_book.xml"
+    },
+    {
+        "merged": "uz.gita.bookapp-mergeDebugResources-62:/layout/activity_main.xml",
+        "source": "uz.gita.bookapp-main-65:/layout/activity_main.xml"
+    },
+    {
+        "merged": "uz.gita.bookapp-mergeDebugResources-62:/layout/screen_saved.xml",
+        "source": "uz.gita.bookapp-main-65:/layout/screen_saved.xml"
+    },
+    {
+        "merged": "uz.gita.bookapp-mergeDebugResources-62:/layout/screen_read_book.xml",
+        "source": "uz.gita.bookapp-main-65:/layout/screen_read_book.xml"
+    }
+]
