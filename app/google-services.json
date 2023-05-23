@@ -1,0 +1,126 @@
+{
+  "project_info": {
+    "project_number": "79357465077",
+    "project_id": "bookie-d786d",
+    "storage_bucket": "bookie-d786d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79357465077:android:2679ebb59312e8b4a250bc",
+        "android_client_info": {
+          "package_name": "com.example.bookapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "79357465077-3un519hrh8vd3a39rllvalsnbp534jgc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYOti2e3SezgpHD_N6yOQvFd3nxRsVU3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "79357465077-3un519hrh8vd3a39rllvalsnbp534jgc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79357465077:android:297bf0efde6f6487a250bc",
+        "android_client_info": {
+          "package_name": "uz.gita.bookapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "79357465077-3un519hrh8vd3a39rllvalsnbp534jgc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYOti2e3SezgpHD_N6yOQvFd3nxRsVU3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "79357465077-3un519hrh8vd3a39rllvalsnbp534jgc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79357465077:android:6abda5582608999da250bc",
+        "android_client_info": {
+          "package_name": "uz.gita.bookie2app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "79357465077-3un519hrh8vd3a39rllvalsnbp534jgc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYOti2e3SezgpHD_N6yOQvFd3nxRsVU3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "79357465077-3un519hrh8vd3a39rllvalsnbp534jgc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79357465077:android:6821b37814dff2bca250bc",
+        "android_client_info": {
+          "package_name": "uz.gita.bookieapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "79357465077-3un519hrh8vd3a39rllvalsnbp534jgc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYOti2e3SezgpHD_N6yOQvFd3nxRsVU3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "79357465077-3un519hrh8vd3a39rllvalsnbp534jgc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

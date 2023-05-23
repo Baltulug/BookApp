@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_nav"
+    app:startDestination="@id/homeScreen">
+
+    <fragment
+        android:id="@+id/homeScreen"
+        android:name="uz.gita.bookapp.presentation.ui.screen.home.HomeScreen"
+        android:label="screen_home"
+        tools:layout="@layout/screen_home" >
+        <action
+            android:id="@+id/action_homeScreen_to_bookInfoScreen"
+            app:destination="@id/bookInfoScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/savedScreen"
+        android:name="uz.gita.bookapp.presentation.ui.screen.saved.SavedScreen"
+        android:label="screen_saved"
+        tools:layout="@layout/screen_saved" />
+    <fragment
+        android:id="@+id/exploreScreen"
+        android:name="uz.gita.bookapp.presentation.ui.screen.explore.ExploreScreen"
+        android:label="screen_explore"
+        tools:layout="@layout/screen_explore" />
+    <fragment
+        android:id="@+id/profileScreen"
+        android:name="uz.gita.bookapp.presentation.ui.screen.profile.ProfileScreen"
+        android:label="screen_profile"
+        tools:layout="@layout/screen_profile" />
+    <fragment
+        android:id="@+id/bookInfoScreen"
+        android:name="uz.gita.bookapp.presentation.ui.screen.bookinfo.BookInfoScreen"
+        android:label="screen_book_info"
+        tools:layout="@layout/screen_book_info" >
+        <argument
+            android:name="data"
+            app:argType="uz.gita.bookapp.data.model.BookData" />
+        <action
+            android:id="@+id/action_bookInfoScreen_to_readBookScreen"
+            app:destination="@id/readBookScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/readBookScreen"
+        android:name="uz.gita.bookapp.presentation.ui.screen.read.ReadBookScreen"
+        android:label="screen_read_book"
+        tools:layout="@layout/screen_read_book" >
+        <argument
+            android:name="data"
+            app:argType="uz.gita.bookapp.data.model.BookData" />
+    </fragment>
+</navigation>
